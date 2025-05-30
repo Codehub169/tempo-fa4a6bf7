@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Stylized screen/feed (rectangle) in Deep Slate -->
+<rect x="6" y="8" width="36" height="28" rx="4" fill="#4A4E69"/>
+<!-- Lines inside suggest content (Pale Lilac) -->
+<line x1="12" y1="16" x2="36" y2="16" stroke="#CFCAD5" stroke-width="2"/>
+<line x1="12" y1="22" x2="30" y2="22" stroke="#CFCAD5" stroke-width="2"/>
+<line x1="12" y1="28" x2="36" y2="28" stroke="#CFCAD5" stroke-width="2"/>
+<!-- Small Soft Orchid circle (profile picture/notification) -->
+<circle cx="35" cy="15" r="3" fill="#E0B1CB"/>
+<!-- Coral Blush play-like or share arrow element on the side -->
+<path d="M28 35L32 39L28 43" stroke="#F28482" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 39H32" stroke="#F28482" stroke-width="2" stroke-linecap="round"/>
+</svg>

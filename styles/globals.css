@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Poppins-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700; /* Or 600 if you have Semibold and prefer it as bold */
+    font-display: swap;
+    src: url(/fonts/Poppins-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Lora-Regular.woff2) format('woff2');
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-creamy-white text-deep-slate font-sans antialiased;
+    /* font-sans is mapped to Poppins in tailwind.config.js */
+  }
+
+  /* Custom Scrollbar for Webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-pale-lilac/50; 
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-mauve/70 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-mauve; 
+  }
+
+  /* Selection highlight */
+  ::selection {
+    @apply bg-coral-blush text-creamy-white;
+  }
+  ::-moz-selection {
+    @apply bg-coral-blush text-creamy-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

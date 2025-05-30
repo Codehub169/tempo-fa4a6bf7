@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Envelope back -->
+<rect x="6" y="12" width="36" height="20" rx="3" fill="#9A8C98"/>
+<!-- Envelope flap -->
+<path d="M6 12L24 22L42 12V15L24 25L6 15V12Z" fill="#4A4E69"/>
+<!-- Letter peeking -->
+<rect x="10" y="14" width="28" height="8" rx="1" fill="#F4F1DE"/>
+<line x1="14" y1="18" x2="26" y2="18" stroke="#9A8C98" stroke-width="1.5"/>
+<!-- Accent: small dot or seal -->
+<circle cx="24" cy="23" r="2.5" fill="#F28482"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Bulb glass -->
+<path d="M24 8C16.268 8 10 14.268 10 22C10 27.5267 13.3873 32.2096 18 34.4101V38C18 38.5523 18.4477 39 19 39H29C29.5523 39 30 38.5523 30 38V34.4101C34.6127 32.2096 38 27.5267 38 22C38 14.268 31.732 8 24 8Z" fill="#CFCAD5" stroke="#4A4E69" stroke-width="2"/>
+<!-- Bulb base -->
+<rect x="19" y="38" width="10" height="5" rx="1.5" fill="#9A8C98" stroke="#4A4E69" stroke-width="2"/>
+<!-- Filament - stylized "hue" burst / spark -->
+<path d="M24 18C22.3431 18 21 19.3431 21 21C21 22.6569 22.3431 24 24 24C25.6569 24 27 22.6569 27 21C27 19.3431 25.6569 18 24 18Z" fill="#F28482"/>
+<path d="M24 24V28" stroke="#F28482" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M20 26L18 28" stroke="#E0B1CB" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M28 26L30 28" stroke="#E0B1CB" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Book Cover -->
+<rect x="10" y="7" width="28" height="34" rx="3" fill="#4A4E69"/>
+<!-- Spine indication -->
+<rect x="10" y="7" width="5" height="34" rx="0" fill="#9A8C98">
+  <path d="M10 7 H15 V 41 H10 Z"/> <!-- Left rounded corners for spine -->
+</rect>
+<path d="M10 10C10 8.34315 11.3431 7 13 7H15V41H13C11.3431 41 10 39.6569 10 38V10Z" fill="#9A8C98"/>
+<!-- Front page content area -->
+<rect x="16" y="10" width="19" height="28" rx="1" fill="#F4F1DE"/>
+<!-- Abstract cover detail -->
+<circle cx="25.5" cy="17" r="2.5" fill="#E0B1CB"/>
+<rect x="23" y="22" width="5" height="8" rx="1.5" fill="#F28482"/>
+</svg>
