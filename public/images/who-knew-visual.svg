@@ -1,0 +1,9 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" fill="#F4F1DE"/>
+<path d="M50 50 Q100 20 150 50 T250 50" stroke="#E0B1CB" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M50 150 Q100 180 150 150 T250 150" stroke="#F28482" stroke-width="10" fill="none" stroke-linecap="round"/>
+<circle cx="100" cy="100" r="30" fill="#9A8C98" opacity="0.7"/>
+<text x="100" y="105" text-anchor="middle" font-family="'Lora', serif" font-size="20" fill="#4A4E69" font-style="italic">
+Who Knew?
+</text>
+</svg>

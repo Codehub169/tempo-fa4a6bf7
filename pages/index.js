@@ -2,8 +2,8 @@ import Head from 'next/head';
 import HeroSection from '../components/HeroSection';
 import StorySection from '../components/StorySection';
 import ServicesSection from '../components/ServicesSection';
-// import WhyHueneuSection from '../components/WhyHueneuSection'; // To be implemented
-// import ContactForm from '../components/ContactForm'; // To be implemented
+import WhyHueneuSection from '../components/WhyHueneuSection';
+import ContactForm from '../components/ContactForm';
 
 export default function HomePage() {
   return (
@@ -23,8 +23,8 @@ export default function HomePage() {
         <HeroSection />
         <StorySection />
         <ServicesSection />
-        {/* <WhyHueneuSection /> */}
-        {/* <ContactForm /> */}
+        <WhyHueneuSection />
+        <ContactForm />
         
         {/* Footer placeholder - to be designed if needed */}
         {/* <footer className="py-12 text-center text-muted-mauve">

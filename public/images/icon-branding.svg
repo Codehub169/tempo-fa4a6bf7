@@ -1,0 +1,8 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Abstract representation of a brand mark or logo -->
+<circle cx="24" cy="20" r="10" stroke="#4A4E69" stroke-width="2.5" fill="none"/>
+<rect x="18" y="28" width="12" height="5" rx="1.5" fill="#9A8C98"/>
+<!-- Accent color splashes -->
+<circle cx="18" cy="15" r="3" fill="#E0B1CB"/>
+<circle cx="30" cy="25" r="2.5" fill="#F28482"/>
+</svg>

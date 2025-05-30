@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Box shape -->
+<rect x="10" y="14" width="28" height="20" rx="3" fill="#CFCAD5" stroke="#4A4E69" stroke-width="2"/>
+<!-- Lid or top flap detail -->
+<path d="M10 17L24 24L38 17" stroke="#4A4E69" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Label area / brand mark placeholder -->
+<rect x="18" y="18" width="12" height="8" rx="1" fill="#F4F1DE"/>
+<circle cx="24" cy="22" r="1.5" fill="#F28482"/>
+</svg>
