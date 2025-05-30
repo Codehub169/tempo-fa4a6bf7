@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
+import ScrollIndicator from './ScrollIndicator'; // To be implemented in a future batch
 // import AnimatedLogo from './AnimatedLogo'; // To be implemented in a future batch
-// import ScrollIndicator from './ScrollIndicator'; // To be implemented in a future batch
 
 const HeroSection = () => {
   return (
@@ -40,22 +40,7 @@ const HeroSection = () => {
       </motion.p>
 
       {/* Placeholder for ScrollIndicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-        {/* <ScrollIndicator /> */}
-        {/* Temporary placeholder for scroll indicator */}
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.2, ease: "easeOut" }}
-          className="w-8 h-12 border-2 border-muted-mauve rounded-full flex items-center justify-center p-1"
-        >
-          <motion.div 
-            className="w-1 h-3 bg-muted-mauve rounded-full"
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </motion.div>
-      </div>
+      <ScrollIndicator targetId="story" />
 
       {/* Subtle background elements for depth and texture - optional */}
       <div className="absolute top-0 left-0 w-1/3 h-1/3 bg-pale-lilac opacity-10 rounded-full filter blur-2xl -translate-x-1/4 -translate-y-1/4"></div>

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import HeroSection from '../components/HeroSection';
-// import StorySection from '../components/StorySection'; // To be implemented
-// import ServicesSection from '../components/ServicesSection'; // To be implemented
+import StorySection from '../components/StorySection';
+import ServicesSection from '../components/ServicesSection';
 // import WhyHueneuSection from '../components/WhyHueneuSection'; // To be implemented
 // import ContactForm from '../components/ContactForm'; // To be implemented
 
@@ -21,8 +21,8 @@ export default function HomePage() {
 
       <main className="overflow-x-hidden">
         <HeroSection />
-        {/* <StorySection /> */}
-        {/* <ServicesSection /> */}
+        <StorySection />
+        <ServicesSection />
         {/* <WhyHueneuSection /> */}
         {/* <ContactForm /> */}
         
